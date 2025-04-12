@@ -1,0 +1,15 @@
+@tailwind base;
+ @tailwind components;
+ @tailwind utilities;
+ 
+ @layer utilities {
+ .text-balance {
+ text-wrap: balance;
+ }
+ nav  header{
+  max-width: 1405px !important;
+ }
+ ul div div{
+  width: max-content;
+ }
+ }
