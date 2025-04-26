@@ -15,10 +15,11 @@ export default function Home() {
             <span>My TEAM</span>
             <Icon icon="ph:dots-three" width="35" height="35" />
           </div>
-          <div className="flex flex-wrap  justify-between gap-2 items-stretch">
+          <div className="flex flex-wrap  justify-between gap-5 items-stretch">
             <Card />
             <Card />
             <EmptyCard />
+            {/* <div className="min-h-[190px]  invisible" aria-hidden="true"></div> */}
           </div>
         </div>
         <div className="flex flex-col  p-10 px-24 bg-gray-200 gap-8 rounded-2xl mb-5">
@@ -30,8 +31,8 @@ export default function Home() {
             <Card2 />
             <Card2 />
             <Card2 />
-            <Card2 />
             <EmptyCard/>
+            <Card2 />
             <Card2 />
           </div>
         </div>

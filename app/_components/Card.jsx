@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Avatar, Button, Card, CardBody, CardFooter, CardHeader } from "@heroui/react";
+import { Avatar, Card, CardFooter, CardHeader } from "@heroui/react";
 import { Icon } from "@iconify/react";
 import { AvatarIcon } from "@heroui/react";
 
