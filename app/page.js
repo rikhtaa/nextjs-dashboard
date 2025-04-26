@@ -10,30 +10,37 @@ export default function Home() {
       <Sidebar />
       <div className="w-full flex flex-col gap-2">
         <Navbar />
-        <div className="flex flex-col  p-14 px-24 bg-gray-200 gap-5 rounded-2xl">
-          <div className="flex justify-between text-gray-500">
+        <div className="grid grid-rows-[auto,1fr] p-6 bg-gray-200 rounded-xl">
+          <div className="flex justify-between text-gray-500 mb-4">
             <span>My TEAM</span>
             <Icon icon="ph:dots-three" width="35" height="35" />
           </div>
-          <div className="flex flex-wrap  justify-between gap-5 items-stretch">
+          <div className="grid grid-cols-4 gap-2 sm:grid-cols-2 lg:grid-cols-4 md:grid-cols-2 lg:grid-rows-1 sm:grid-rows-2 md:grid-rows-2">
+            <Card />
             <Card />
             <Card />
             <EmptyCard />
-            {/* <div className="min-h-[190px]  invisible" aria-hidden="true"></div> */}
           </div>
         </div>
-        <div className="flex flex-col  p-10 px-24 bg-gray-200 gap-8 rounded-2xl mb-5">
-          <div className="flex justify-between text-gray-500">
+        <div className="grid grid-rows-[auto,1fr] p-6 bg-gray-200 rounded-xl">
+          <div className="flex justify-between text-gray-500 mb-4">
             <span>My PROJECTS</span>
             <Icon icon="ph:dots-three" width="35" height="35" />
           </div>
-          <div className="flex flex-wrap  justify-between gap-5 items-stretch">
+          <div className="grid grid-cols-4 grid-rows-2 
+          lg:grid-cols-4 lg:grid-rows-2
+          md:grid-cols-2 md:grid-rows-3
+           sm:grid-cols-2
+           sm:grid-rows-4
+          gap-4">
+            <Card2 />
+            <Card2 />
+            <Card2 />
+            <Card2 />
             <Card2 />
             <Card2 />
             <Card2 />
             <EmptyCard/>
-            <Card2 />
-            <Card2 />
           </div>
         </div>
       </div>

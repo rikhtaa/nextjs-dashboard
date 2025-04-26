@@ -8,7 +8,7 @@ import { AvatarIcon } from "@heroui/react";
 export default function Component(props) {
   return (
     <Card
-      className="overflow-none relative w-[347px] border-small bg-white py-6"
+      className="overflow-none relative  max-w-sm w-full border-small bg-white py-6"
       {...props}
     >
       <CardHeader className="block">

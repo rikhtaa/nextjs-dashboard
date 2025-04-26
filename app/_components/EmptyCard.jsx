@@ -5,7 +5,7 @@ import React from 'react'
 export default function Component() {
   return (
     <Card
-      className="flex overflow-none relative w-[347px]  border-small bg-gray-300  text-center  justify-center"
+      className="flex overflow-none relative  max-w-sm w-full  border-small bg-gray-300  text-center  justify-center"
     >
       <Button  radius="sm"  className="text-lg " startContent={<Icon icon="mdi:plus" width={45} height={45}
       />}
